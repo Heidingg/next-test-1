@@ -24,7 +24,13 @@ export default function NewPostForm({ defaultLanguage = "markdown", defaultCode 
       <div className="rounded-md shadow-sm -space-y-px">
         <div>
 
-         
+          <LanguageDropdown
+            // buttonClassName="rounded-none rounded-t-xl"
+            // optionsClassName="rounded-none rounded-b-xl"
+            optionsClassName="mt-1"
+            language={language}
+            onChange={setLanguage}
+          />
           <SimpleCodeEditor
             // className="rounded-none rounded-b-xl"
             className="mt-5"
