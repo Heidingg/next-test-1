@@ -51,7 +51,14 @@ export default function Post({ onComment, onLike, onShare, liked, post, user, sm
           </pre>
 
         </div>
-        
+        <PostActions
+          className="mt-6 mb-3"
+          onComment={onComment}
+          onLike={onLike}
+          onShare={onShare}
+          liked={liked}
+          totalComments={post.totalComments}
+          totalLikes={post.totalLikes} />
       </div>
     </>
   )
