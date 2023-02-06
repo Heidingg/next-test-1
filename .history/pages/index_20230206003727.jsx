@@ -16,7 +16,7 @@ export default function Home({ posts }) {
         <div className='max-w-2xl mx-auto'>
 
           <Button onClick={() => router.push("/addPost")}>
-            Post
+            Create A Snippet
           </Button>
 
           <ul className='mt-8'>

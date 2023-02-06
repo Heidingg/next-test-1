@@ -4,6 +4,6 @@
 
 @layer base {
   html {
-    @apply bg-white text-lightblue;
+    @apply bg-white text-yellow;
   } 
 }
